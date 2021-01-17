@@ -1,4 +1,5 @@
 .welcome {
+    min-height: 700px;
     background-size: 628px 542px;
     background-color: #FCB808;
     background-image: url('../../public/img-1.png');
@@ -10,19 +11,69 @@
     background-color: #03AFE5;
 }
 
+.rights .section-content {
+    margin-top: -70px;
+    float: right;
+}
+
 .rights .section-image {
     margin-right: 40px;
     background-image: url('../../public/img-2.png');
     width: 462px;
     height: 564px;
+    max-width: 462px;
+    max-height: 564px;
+}
+
+.assistance {
+    background-color: #BE00EE;
+}
+
+.assistance .section-content {
+    max-width: 558px;
+}
+
+.assistance .section-content p {
+    max-width: 550px;
+}
+
+.assistance .section-image {
+    margin-right: 40px;
+    background-image: url('../../public/img-3.png');
+    width: 642px;
+    height: 551px;
+    max-width: 642px;
+    max-height: 551px;
+}
+
+.learn {
+    background-color: #00E2BA;
+    padding: unset;
+}
+
+.learn button {
+    background-color: #BE00EE;
+}
+
+.learn .section-image {
+    margin-right: 40px;
+    background-image: url('../../public/img-4.png');
+    width: 754px;
+    height: 720px;
+    max-width: 754px;
+    max-height: 720px;
+}
+
+.learn .section-content {
+    max-width: 531px;
 }
 
 section {
-    min-height: 700px;
+    min-height: 768px;
     padding: 0 70px;
     color: white;
     display: flex;
-    flex-flow: row;
+    // flex-flow: row;
 }
 
 section h1 {
@@ -43,6 +94,13 @@ section a {
 
 .section-content {
     max-width: 662px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.section-image {
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 section button {
