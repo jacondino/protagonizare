@@ -28,7 +28,7 @@ class SingupPage extends React.Component {
               <input type="password" placeholder="digite novamente" />
             </div>
             <div className="button">
-              <a href="/home">entrar</a>
+              <a href="/main">entrar</a>
             </div>
             <div className="to-singup">
               <p>Já possui uma conta?</p>
