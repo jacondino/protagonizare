@@ -1,0 +1,123 @@
+.page-assistance {
+
+    background-color: #BE00EE;
+    width: 100%;
+    min-height: 87vh;
+    display: flex;
+    flex-flow: row;
+    color: white;
+    background-image: url('../../public/img-1.png');
+    background-size: 628px 542px;
+    background-position: right bottom; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+
+    .content {
+        // max-width: 370px;
+        margin-left: 200px;
+        // align-self: center;
+        margin-top: 50px;
+
+        h1 {
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 24px;
+            width: 285px;
+        }
+
+        form {
+            display: flex;
+            flex-flow: row;
+            // background-color: white;
+            border-radius: 30px;
+            // padding: 35px 50px;
+            // box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+
+            .field {
+                margin-right: 20px;
+                padding: 10px 0;
+                display: flex;
+                flex-flow: column;
+
+                label {
+                    margin-bottom: unset;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+
+                select {
+                    width: 200px;
+                    margin-top: 5px;
+                    border-radius: 20px;
+                    padding: 5px 5px;
+                    border-width: 0 0 1px 0;
+                }
+
+            }
+
+            .button {
+                margin-top: 40px;
+                background: #03AFE5;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                width: 200px;
+                height: 35px;
+                font-size: 24px;
+                text-align: center;
+
+                a {
+                    color: white;
+                    font-size: 20px;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+            }
+
+            .to-singup {
+                margin-top: 30px;
+                text-align: center;
+                font-size: 14px;
+
+                p {
+                    margin-bottom: unset;
+                    color: #A5A3A2;
+                    width: 100%;
+                    font-size: 14px;
+                }
+
+                a {
+
+                }
+
+
+            }
+            
+        }
+
+        .result {
+            margin-top: 50px;
+
+            .assistance {
+                margin-top: 20px;
+
+                .contact {
+                    display: flex;
+                    flex-flow: row;
+                    
+                    span {
+                        margin-right: 10px;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
