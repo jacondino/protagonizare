@@ -1,0 +1,56 @@
+.headerAulas {
+  padding: 20px 130px;
+  color: #444444;
+
+  h2 {
+    font-size: 38px;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+
+  .botaoVoltar {
+    display: flex;
+    align-items: center;
+  }
+
+  .autorAulas {
+    font-size: 21px;
+    font-weight: 700;
+    color: #828282;
+    display: flex;
+    align-items: center;
+    padding-left: 58px;
+
+    img {
+      margin-left: 25px;
+    }
+  }
+
+  .iframe {
+    iframe {
+      filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.25));
+      border-radius: 10px;
+      max-width: 100%;
+      width: 760px;
+      height: 428px;
+    }
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;  
+  }
+
+  .avalie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 21px;
+
+    span {
+      margin-right: 16px;
+      color: #828282;
+    }
+  }
+}
