@@ -1,6 +1,13 @@
-## Getting Started
+# Wings
+A Wings é uma plataforma colaborativa que permite que mães jovens tenham acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.
 
-comandos para rodar o projeto:
+## Tecnologias
+
+<img  src="https://imgur.com/DhCORcq.png"  title="React, Typescript, Nextjs, Sass, Webpack"  >
+
+## Primeiros passos
+
+Executar os seguintes comandos para rodar o projeto:
 
 ```bash
 npm run dev
