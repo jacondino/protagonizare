@@ -11,6 +11,11 @@
     background-color: #03AFE5;
 }
 
+.rights a {
+    // text-decoration: none;
+    color: white;
+}
+
 .rights .section-content {
     margin-top: -70px;
     float: right;
@@ -51,7 +56,7 @@
     padding: unset;
 }
 
-.learn button {
+.learn .button {
     background-color: #BE00EE;
 }
 
@@ -104,12 +109,18 @@ section a {
     flex-grow: 1;
 }
 
-section button {
-    color: white;
+section .button {
     background: #03AFE5;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
     height: 50px;
     width: 215px;
     font-size: 24px;
+    text-align: center;
+    padding: 5px;
+}
+
+section .button a {
+    color: white;
+    text-decoration: none;
 }
