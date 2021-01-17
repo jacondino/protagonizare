@@ -27,7 +27,7 @@ class HomePage extends React.Component {
             <h1>Que bom ter você por aqui! :)</h1>
             <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.</p>
             <div className="button">
-              <a href="/cursos">começar</a>
+              <a href="/login">começar</a>
             </div>
           </div>
         </section>
@@ -55,7 +55,7 @@ class HomePage extends React.Component {
             <h1>O que você pode aprender com a Wings?</h1>
             <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional. ESCREVER MELHOR SOBRE ISSAQUI.</p>
             <div className="button">
-              <a href="/cursos">começar</a>
+              <a href="/login">começar</a>
             </div>
           </div>
         </section>
