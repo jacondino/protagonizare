@@ -17,7 +17,7 @@ const AulaPage = () => {
   return (
     <div className="headerAula">
       <Breadcrumb>
-        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
         <Breadcrumb.Item href="/categorias">Categorias</Breadcrumb.Item>
         <Breadcrumb.Item active>{CursoData.descricao}</Breadcrumb.Item>
       </Breadcrumb>
@@ -34,6 +34,7 @@ const AulaPage = () => {
             <Row className="cardAula">
               <Col sm={3}>
                 <img
+                className="ajustaImg"
                   src={
                     item.id == 1
                       ? img1
@@ -51,7 +52,7 @@ const AulaPage = () => {
                 <span className="descriAula">{item.descricao}</span>
               </Col>
               <Col sm={2}>
-                {!(item.id == 4) && <img src={item.id == 1 ? pro2 : item.id == 2 ? pro1 : pro3} />}
+                {!(item.id == 1) && <img src={item.id == 3 ? pro2 : item.id == 2 ? pro1 : pro3} />}
               </Col>
               <Col sm={2} className="boxButtonAula">
                 <a className="buttonAula" href={`/aula/${item.id}`}>

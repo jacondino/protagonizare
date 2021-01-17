@@ -12,7 +12,7 @@ const CursosPage = () => {
   return (
     <div className="headerCurso">
       <Breadcrumb>
-        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
         <Breadcrumb.Item active>Categorias</Breadcrumb.Item>
       </Breadcrumb>
       <Container fluid className="headCurso">
