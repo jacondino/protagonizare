@@ -4,6 +4,7 @@ import App from 'next/app'
 import { Header } from '../src/components'
 import { HeaderHome } from '../src/components'
 import './style.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class Layout extends Component {

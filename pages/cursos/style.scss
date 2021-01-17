@@ -1,0 +1,60 @@
+.headerCurso {
+  padding: 20px 130px;
+  color: #444444;
+
+  h2 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 45px;
+  }
+
+  span {
+    font-size: 24px;
+  }
+
+  .imgCat {
+    img {
+      margin: 0 0 0 auto;
+      display: block;
+    }
+  }
+
+  .boxCat {
+    font-size: 24px;
+    width: 270px;
+    padding: 44px 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 auto 25px;
+    border-radius: 20px;
+    min-height: 152px;
+
+    &:hover {
+      opacity: 0.8;
+      text-decoration: none;
+    }
+  }
+
+  .headCurso {
+    margin-bottom: 50px;
+  }
+
+  .breadcrumb {
+      background-color: transparent;
+      font-weight: bold;
+      
+    .breadcrumb-item {
+      a {
+        color: #fab401;
+      }
+    }
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+    content: '>';
+    font-weight: 600;
+  }
+}
