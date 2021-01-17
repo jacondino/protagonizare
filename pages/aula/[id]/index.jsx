@@ -8,6 +8,7 @@ import { withRouter } from "next/router";
 import voltar from "../../../public/voltar.png";
 import star from "../../../public/star.png";
 import starzero from "../../../public/starzero.png";
+import ReactStars from "react-rating-stars-component";
 
 const AulasPage = () => {
   return (
@@ -48,7 +49,12 @@ const AulasPage = () => {
         </div>
         <div className="avalie">
           <span>Avalie esa aula:</span>
-          <img src={starzero} />
+          <ReactStars
+            count={5}
+            //onChange={ratingChanged}
+            size={24}
+            activeColor="#ffd700"
+          />
         </div>
       </Container>
     </div>
