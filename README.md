@@ -1,5 +1,5 @@
 # Wings
-A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.
+A Wings é uma plataforma colaborativa que permite que mães jovens tenham acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.
 
 ## Tecnologias
 
