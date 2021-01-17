@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.scss'
+import { withRouter } from "next/router";
 
 class HomePage extends React.Component {
 
@@ -62,4 +63,4 @@ class HomePage extends React.Component {
 
 }
 
-export default HomePage;
+export default withRouter(HomePage);

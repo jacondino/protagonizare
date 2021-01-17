@@ -6,10 +6,9 @@ import { HeaderHome } from '../src/components'
 import './style.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 class Layout extends Component {
   render() {
-    const { children } = this.props
+    const { children, isHome } = this.props;
 
     return (
       <>
@@ -18,29 +17,30 @@ class Layout extends Component {
           <title>Wings</title>
         </Head>
         <div className="app">
-          {/* <Header /> */}
-          <HeaderHome />
+          {isHome ? <HeaderHome /> : <Header />}
           <div className="app--page">{children}</div>
         </div>
       </>
-    )
+    );
   }
 }
 
 export default class Pages extends App {
   render() {
-    const { Component, pageProps } = this.props
+    const { Component, pageProps, router } = this.props;
 
     return (
-      <Layout>
+      <Layout isHome={router.route == "/"}>
         <Component {...pageProps} />
       </Layout>
-    )
+    );
   }
 }
 
 Pages.getInitialProps = async ({ Component, ctx }) => {
-  const pageProps = Component.getInitialProps ? await Component.getInitialProps(ctx) : {}
+  const pageProps = Component.getInitialProps
+    ? await Component.getInitialProps(ctx)
+    : {};
 
-  return { pageProps }
-}
+  return { pageProps };
+};
