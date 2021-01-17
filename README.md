@@ -1,6 +1,6 @@
 ## Getting Started
 
-comandos para rodar o projeto:
+Executar os seguintes comandos para rodar o projeto:
 
 ```bash
 npm run dev
