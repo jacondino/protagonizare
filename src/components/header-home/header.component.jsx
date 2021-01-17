@@ -11,7 +11,7 @@ export const Header = () => {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <div className="header">
+    <div className="header-home">
       <div className="navbar">
         <div className="menu">
           <a href="#welcome">Wings</a>
