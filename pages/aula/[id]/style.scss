@@ -53,4 +53,10 @@
       color: #828282;
     }
   }
+
+  .ratingChanged {
+    &:focus {
+      outline: none;
+    }
+  }
 }
