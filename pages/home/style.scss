@@ -1,0 +1,56 @@
+.welcome {
+    background-size: 628px 542px;
+    background-color: #FCB808;
+    background-image: url('../../public/img-1.png');
+    background-position: right bottom; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+}
+
+.rights {
+    background-color: #03AFE5;
+}
+
+.rights .section-image {
+    margin-right: 40px;
+    background-image: url('../../public/img-2.png');
+    width: 462px;
+    height: 564px;
+}
+
+section {
+    min-height: 700px;
+    padding: 0 70px;
+    color: white;
+    display: flex;
+    flex-flow: row;
+}
+
+section h1 {
+    font-size: 38px;
+}
+
+section p, section a {
+    font-size: 24px;
+}
+
+section a {
+    text-decoration: underline;
+}
+
+.section-content, .section-image {
+    align-self: center;
+}
+
+.section-content {
+    max-width: 662px;
+}
+
+section button {
+    color: white;
+    background: #03AFE5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: 50px;
+    width: 215px;
+    font-size: 24px;
+}
