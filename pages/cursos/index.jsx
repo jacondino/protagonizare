@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Container, Row, Col, Breadcrumb } from "react-bootstrap";
 import cate from "../../public/cate.png";
@@ -35,14 +36,15 @@ const CursosPage = () => {
           {CursoData.map((item) => {
             let result = (
               <Col sm={3}>
-                <div
+                <a
+                  href={`/cursos/${item.id}`}
                   className="boxCat"
                   style={{
                     background: `${colors[color]}`,
                   }}
                 >
                   <h4>{item.descricao}</h4>
-                </div>
+                </a>
               </Col>
             );
 
