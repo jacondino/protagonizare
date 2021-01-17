@@ -34,6 +34,7 @@ const AulaPage = () => {
             <Row className="cardAula">
               <Col sm={3}>
                 <img
+                className="ajustaImg"
                   src={
                     item.id == 1
                       ? img1
