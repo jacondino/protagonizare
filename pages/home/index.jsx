@@ -26,7 +26,9 @@ class HomePage extends React.Component {
           <div className="section-content">
             <h1>Que bom ter você por aqui! :)</h1>
             <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.</p>
-            <button>começar</button>
+            <div className="button">
+              <a href="/login">começar</a>
+            </div>
           </div>
         </section>
 
@@ -35,7 +37,7 @@ class HomePage extends React.Component {
           <div style={{ marginTop: '-70px' }} className="section-content">
             <h1>Conheça seus direitos</h1>
             <p>Após o oitavo mês da gravidez e durante o período da licença-maternidade, a jovem tem o direito de continuar estudando em casa</p>
-            <a href="#">Lei Federal 6.202/75.</a> <br/>
+            <a href="http://www.planalto.gov.br/ccivil_03/LEIS/1970-1979/L6202.htm" target="_blank">Lei Federal 6.202/75.</a> <br/>
           </div>
         </section>
 
@@ -52,7 +54,9 @@ class HomePage extends React.Component {
           <div className="section-content">
             <h1>O que você pode aprender com a Wings?</h1>
             <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional. ESCREVER MELHOR SOBRE ISSAQUI.</p>
-            <button>começar</button>
+            <div className="button">
+              <a href="/login">começar</a>
+            </div>
           </div>
         </section>
 
