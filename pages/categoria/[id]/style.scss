@@ -1,0 +1,47 @@
+.headerAula {
+  padding: 20px 130px;
+  color: #444444;
+
+  h2 {
+    font-size: 38px;
+    margin-bottom: 19px;
+    font-weight: 700;
+  }
+
+  .cardAula {
+    padding: 25px 39px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 25px;
+  }
+
+  .tituloAula {
+    color: #be00ee;
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .autorAula {
+    color: #828282;
+    font-size: 12px;
+    display: block;
+  }
+
+  .descriAula {
+    color: #444444;
+  }
+
+  .boxButtonAula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .buttonAula {
+      background: #03afe5;
+      padding: 10px 52px;
+      font-size: 24px;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 25px;
+      color: white;
+    }
+  }
+}

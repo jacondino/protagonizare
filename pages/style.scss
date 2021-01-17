@@ -16,3 +16,18 @@ button {
   }
 }
 
+.breadcrumb {
+  background-color: transparent !important;
+  font-weight: bold;
+  
+.breadcrumb-item {
+  a {
+    color: #fab401;
+  }
+}
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+content: '>';
+font-weight: 600;
+}

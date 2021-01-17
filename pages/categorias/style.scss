@@ -41,20 +41,4 @@
   .headCurso {
     margin-bottom: 50px;
   }
-
-  .breadcrumb {
-      background-color: transparent;
-      font-weight: bold;
-      
-    .breadcrumb-item {
-      a {
-        color: #fab401;
-      }
-    }
-  }
-
-  .breadcrumb-item+.breadcrumb-item::before {
-    content: '>';
-    font-weight: 600;
-  }
 }

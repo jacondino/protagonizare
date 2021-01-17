@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import bar from "../../../public/bars.png";
 import close from "../../../public/close.png";
+import logo from "../../../public/logo.png";
 import "./style.scss";
 
 export const Header = () => {
@@ -17,7 +18,7 @@ export const Header = () => {
         </button>
         <span className="logo">
           <Link href={"/"}>
-            <a>WINGS</a>
+            <a><img src={logo} /></a>
           </Link>
         </span>
         <span className="user">MW</span>
