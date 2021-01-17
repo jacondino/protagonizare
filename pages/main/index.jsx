@@ -31,7 +31,7 @@ class MainPage extends React.Component {
                 <a href="/assistances">Assistentes sociais</a>
               </div>
               <div className="button">
-                <a href="/cursos">Acessar aulas</a>
+                <a href="/categorias">Acessar aulas</a>
               </div>
             </div>
           </div>
