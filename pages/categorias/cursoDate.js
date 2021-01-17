@@ -9,7 +9,7 @@ export const CursoData = [
     },
     {
         id: 3,
-        descricao: 'LinkedIn: Por onde começar?'
+        descricao: 'LinkedIn'
     },
     {
         id: 4,

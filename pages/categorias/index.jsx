@@ -37,7 +37,7 @@ const CursosPage = () => {
             let result = (
               <Col sm={3}>
                 <a
-                  href={`/cursos/${item.id}`}
+                  href={`/categoria/${item.id}`}
                   className="boxCat"
                   style={{
                     background: `${colors[color]}`,
@@ -62,6 +62,5 @@ const CursosPage = () => {
     </div>
   );
 };
-<h1>CursosPage</h1>;
 
 export default CursosPage;

@@ -18,7 +18,7 @@ export const Header = () => {
         </button>
         <span className="logo">
           <Link href={"/"}>
-            <img className="logo" src={logo} alt=""/>
+            <a><img src={logo} /></a>
           </Link>
         </span>
         <span className="user">MW</span>
@@ -31,7 +31,7 @@ export const Header = () => {
             </button>
           </li>
           <li className={"nav-text"}>
-            <Link href={"/cursos"}>
+            <Link href={"/categorias"}>
               <a onClick={() => showSidebar()}>
                 <span>Cursos</span>
               </a>
