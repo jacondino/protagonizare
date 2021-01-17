@@ -1,4 +1,10 @@
-## Getting Started
+# Wings
+
+## Tecnologias
+
+<img  src="https://imgur.com/DhCORcq.png"  title="React, Typescript, Nextjs, Sass, Webpack"  >
+
+## Primeiros passos
 
 Executar os seguintes comandos para rodar o projeto:
 
