@@ -3,11 +3,25 @@ import './style.scss'
 
 class HomePage extends React.Component {
 
+  componentDidMount() {
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+    });
+
+  }
+
   render() {
     return (
       <div>
 
-        <section className="welcome" >
+        <section id="welcome" className="welcome" >
           <div className="section-content">
             <h1>Que bom ter você por aqui! :)</h1>
             <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.</p>
@@ -15,7 +29,7 @@ class HomePage extends React.Component {
           </div>
         </section>
 
-        <section className="rights" >
+        <section id="rights" className="rights" >
           <div className="section-image"></div>
           <div style={{ marginTop: '-70px' }} className="section-content">
             <h1>Conheça seus direitos</h1>
@@ -24,7 +38,7 @@ class HomePage extends React.Component {
           </div>
         </section>
 
-        <section className="assistance" >
+        <section id="assistance" className="assistance" >
           <div className="section-content">
             <h1>Encontre o(a) assistente social mais perto de você</h1>
             <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.</p>
@@ -32,7 +46,7 @@ class HomePage extends React.Component {
           <div className="section-image"></div>
         </section>
 
-        <section className="learn" >
+        <section id="learn" className="learn" >
           <div className="section-image"></div>
           <div className="section-content">
             <h1>O que você pode aprender com a Wings?</h1>

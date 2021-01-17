@@ -3,7 +3,9 @@ import React, { Component } from 'react'
 import Head from 'next/head'
 import App from 'next/app'
 import { Header } from '../src/components'
+import { HeaderHome } from '../src/components'
 import './style.scss'
+
 
 class Layout extends Component {
   render() {
@@ -16,7 +18,8 @@ class Layout extends Component {
           <title>Wings</title>
         </Head>
         <div className="app">
-          <Header />
+          {/* <Header /> */}
+          <HeaderHome />
           <div className="app--page">{children}</div>
         </div>
       </>
