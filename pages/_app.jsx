@@ -1,4 +1,3 @@
-import '../styles/globals.css'
 import React, { Component } from 'react'
 import Head from 'next/head'
 import App from 'next/app'
