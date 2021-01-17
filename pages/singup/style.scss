@@ -1,4 +1,4 @@
-.page-login {
+.page-singup {
 
     background-color: #BE00EE;
     width: 100%;
@@ -11,10 +11,10 @@
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 
     .content {
+        margin-bottom: 30px;
         max-width: 370px;
         margin-left: 200px;
         align-self: center;
-        margin-bottom: 30px;
 
         h1 {
             font-size: 38px;
