@@ -28,7 +28,7 @@ class MainPage extends React.Component {
             <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.</p>
             <div className="buttons">
               <div style={{ backgroundColor: '#BE00EE'}} className="button btn-assistance">
-                <a href="/assistances">Assistentes sociais</a>
+                <a href="/assistance">Assistentes sociais</a>
               </div>
               <div className="button">
                 <a href="/categorias">Acessar aulas</a>

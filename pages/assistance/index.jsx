@@ -73,8 +73,7 @@ class AssistancePage extends React.Component {
     return (
       <div className="page-assistance">
         <div className="content">
-          <h1>Olá! :)</h1>
-          <p>Faça login para acessar a plataforma</p>
+          <h1>Encontre o(a) assistente social mais perto de você</h1>
           <form action="">
             <div className="field">
               <label for="estadp">Estado</label>

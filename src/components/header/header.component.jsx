@@ -31,12 +31,26 @@ export const Header = () => {
             </button>
           </li>
           <li className={"nav-text"}>
+            <Link href={"/main"}>
+              <a onClick={() => showSidebar()}>
+                <span>Home</span>
+              </a>
+            </Link>
+          </li>
+          <li className={"nav-text"}>
             <Link href={"/categorias"}>
               <a onClick={() => showSidebar()}>
                 <span>Cursos</span>
               </a>
             </Link>
           </li>
+          <li className={"nav-text"}>
+            <Link href={"/assistance"}>
+              <a onClick={() => showSidebar()}>
+                <span>Assistentes</span>
+              </a>
+            </Link>
+          </li> 
         </ul>
       </nav>
     </div>
