@@ -15,7 +15,11 @@ export const Header = () => {
         <button className="menu-bars" onClick={showSidebar}>
           <img src={bar} />
         </button>
-        <span className="logo">WINGS</span>
+        <span className="logo">
+          <Link href={"/"}>
+            <a>WINGS</a>
+          </Link>
+        </span>
         <span className="user">MW</span>
       </div>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
@@ -26,8 +30,8 @@ export const Header = () => {
             </button>
           </li>
           <li className={"nav-text"}>
-            <Link href={"/categorias"}>
-              <a>
+            <Link href={"/cursos"}>
+              <a onClick={() => showSidebar()}>
                 <span>Cursos</span>
               </a>
             </Link>
