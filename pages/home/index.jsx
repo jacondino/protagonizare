@@ -53,7 +53,7 @@ class HomePage extends React.Component {
           <div className="section-image"></div>
           <div className="section-content">
             <h1>O que você pode aprender com a Wings?</h1>
-            <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional. ESCREVER MELHOR SOBRE ISSAQUI.</p>
+            <p>A Wings é uma plataforma colaborativa que permite que você, mãe jovem, tenha acesso a conteúdos importantes para seu desenvolvimento pessoal e profissional.</p>
             <div className="button">
               <a href="/login">começar</a>
             </div>
