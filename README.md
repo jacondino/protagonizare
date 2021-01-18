@@ -10,6 +10,8 @@ A Wings é uma plataforma colaborativa que permite que mães jovens tenham acess
 Executar os seguintes comandos para rodar o projeto:
 
 ```bash
+yarn install
+# &&
 npm run dev
 # or
 yarn dev
