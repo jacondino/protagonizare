@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { Container, Row, Col, Breadcrumb } from "react-bootstrap";
-import { CursoData } from "./cursoDate";
 import "./style.scss";
 import "../../categorias/style.scss";
 import { withRouter } from "next/router";
@@ -12,6 +11,38 @@ import img4 from "../../../public/aula4.png";
 import pro1 from "../../../public/pro1.png";
 import pro2 from "../../../public/pro2.png";
 import pro3 from "../../../public/pro3.png";
+
+const CursoData = {
+  id: 1,
+  descricao: 'LinkedIn',
+  aulas: [{
+      id: 1,
+      autor: 'Ana Clára',
+      img: '/public/aula1.png',
+      titulo: 'LinkedIn: por onde começar?',
+      descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ante sit amet erat ornare fringilla. Nullam hendrerit lorem metus, sed accumsan nisl gravida non amet nisl in, aliquam blandit sem.'
+  },{
+      id: 2,
+      autor: 'Ana Clára',
+      img: '../../../public/aula1.png',
+      titulo: 'Por que usar o LinkedIn?',
+      descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ante sit amet erat ornare fringilla. Nullam hendrerit lorem metus, sed accumsan nisl gravida non amet nisl in, aliquam blandit sem.'
+  },
+  {
+      id: 3,
+      autor: 'Ana Clára',
+      img: '../../../public/aula1.png',
+      titulo: 'O que colocar no seu perfil do LinkedIn',
+      descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ante sit amet erat ornare fringilla. Nullam hendrerit lorem metus, sed accumsan nisl gravida non amet nisl in, aliquam blandit sem.'
+  },
+  {
+      id: 4,
+      autor: 'Ana Clára',
+      img: '../../../public/aula1.png',
+      titulo: 'Como se destacar com o LinkedIn',
+      descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ante sit amet erat ornare fringilla. Nullam hendrerit lorem metus, sed accumsan nisl gravida non amet nisl in, aliquam blandit sem.'
+  }],
+}
 
 const AulaPage = () => {
   return (
